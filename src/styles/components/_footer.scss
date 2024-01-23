@@ -1,0 +1,8 @@
+@import '../base.scss';
+
+footer {
+    border-top: solid 2px $tertiary-color;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
