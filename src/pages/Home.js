@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/base.scss';
+import Footer from '../components/Footer';
 
 function Home() {
     return (
@@ -9,6 +10,7 @@ function Home() {
         <h3>Développeuse web</h3>
         <p>(et bien plus encore)</p>
         
+        <Footer />
       </div>
     );
   }
