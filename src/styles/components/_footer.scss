@@ -6,4 +6,15 @@ footer {
     bottom: 0;
     width: 100%;
     font-size: 25px;
+    display: flex;
+    justify-content: space-between;
 }
+
+.iconsFooter {
+    margin: 20px;
+}
+
+.github {
+    margin-right: 10px;
+}
+
