@@ -2,12 +2,14 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
     <Router>
       <div className='globalposition'>
-        <div>
+        <div className='navbar'>
           <Navbar />
         </div>
         <div>
@@ -16,6 +18,7 @@ function App() {
           </Routes>
         </div>
       </div>
+      <Footer />
     </Router>
   );
 }

@@ -1,2 +1,27 @@
-@import '../base.scss'
+@import '../base.scss';
 
+h1 {
+    font-family: $font-p;
+    font-size: 200px;
+    margin: 2rem 0 0 0;
+}
+
+h2 {
+    font-family: $font-p;
+    font-size: 100px;
+    margin-top: 3rem;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-family: $font-p;
+    font-size: 60px;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+p {
+    font-family: $font-p;
+    font-size: 40px;
+    margin-top: 0;
+}
