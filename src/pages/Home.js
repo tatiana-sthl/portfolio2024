@@ -1,6 +1,10 @@
 import React from 'react';
 import '../styles/pages/_home.scss';
 import Book from '../icons/book-icon.svg';
+import Parcours from '../icons/map-icon.svg';
+import Stack from '../icons/stack-icon.svg';
+import Contact from '../icons/contact-icon.svg';
+
 
 function Home() {
   return (
@@ -17,6 +21,24 @@ function Home() {
           <h3>PROJETS</h3>
           <div>
             <img src={Book} alt='book-icon'/>
+          </div>
+        </div>
+        <div>
+          <h3>PARCOURS</h3>
+          <div>
+            <img src={Parcours} alt='map-icon'/>
+          </div>
+        </div>
+        <div>
+          <h3>STACK</h3>
+          <div>
+            <img src={Stack} alt='stack-icon'/>
+          </div>
+        </div>
+        <div>
+          <h3>CONTACT</h3>
+          <div>
+            <img src={Contact} alt='contact-icon'/>
           </div>
         </div>
 
