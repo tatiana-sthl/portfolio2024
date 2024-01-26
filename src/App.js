@@ -6,10 +6,16 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
+      <div className='globalposition'>
+        <div>
+          <Navbar />
+        </div>
+        <div>
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </div>
+      </div>
     </Router>
   );
 }
