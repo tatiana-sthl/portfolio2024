@@ -1,27 +1,23 @@
 @import '../base.scss';
 
-h1 {
-    font-family: $font-p;
-    font-size: 200px;
-    margin: 2rem 0 0 0;
+.linkHome {
+    display: flex;
 }
 
-h2 {
-    font-family: $font-p;
-    font-size: 100px;
-    margin-top: 3rem;
-    margin-bottom: 0;
+.linkBg {
+    margin: 0 2rem;
+    padding: 0 2rem;
+    text-align: center;
+    background-color: $secondary-color;
+
+    & h3 {
+        margin: 0;
+    }
 }
 
-h3 {
-    font-family: $font-p;
-    font-size: 60px;
-    margin-top: 2rem;
-    margin-bottom: 0;
-}
-
-h4 {
-    font-family: $font-p;
-    font-size: 40px;
-    margin-top: 0;
+.linkBgProject {
+    margin: 0 2rem 0 0;
+    padding: 0 2rem;
+    text-align: center;
+    background-color: $secondary-color;
 }

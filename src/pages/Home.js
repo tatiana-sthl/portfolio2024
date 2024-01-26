@@ -16,26 +16,26 @@ function Home() {
         <h4>(et bien plus encore)</h4>
       </div>
 
-      <div>
-        <div>
+      <div className='linkHome'>
+        <div className='linkBgProject'>
           <h3>PROJETS</h3>
           <div>
             <img src={Book} alt='book-icon'/>
           </div>
         </div>
-        <div>
+        <div className='linkBg'>
           <h3>PARCOURS</h3>
           <div>
             <img src={Parcours} alt='map-icon'/>
           </div>
         </div>
-        <div>
+        <div className='linkBg'>
           <h3>STACK</h3>
           <div>
             <img src={Stack} alt='stack-icon'/>
           </div>
         </div>
-        <div>
+        <div className='linkBg'>
           <h3>CONTACT</h3>
           <div>
             <img src={Contact} alt='contact-icon'/>
