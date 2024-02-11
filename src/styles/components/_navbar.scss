@@ -14,8 +14,29 @@ li {
     margin: 2rem 0;
 }
 
+.iconContainer {
+    position: relative;
+    display: inline-block;
+}
+
 svg {
     transition: transform .5s;
+}
+
+span.iconText {
+    position: absolute;
+    bottom: -1.5rem;
+    font-size: 40px;
+    letter-spacing: -5px;
+    color: $primary-color;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.iconContainer:hover .iconText {
+    opacity: 1;
 }
 
 svg:hover {
