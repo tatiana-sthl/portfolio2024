@@ -6,19 +6,18 @@
 }
 
 .linkBg {
-    margin: 0 2rem;
-    padding: 0 2rem;
+    margin: 0 4rem 0 0;
+    padding: 2rem 2rem;
     text-align: center;
     background-color: $secondary-color;
+    position: relative;
 
     & h3 {
         margin: 0;
+        position: absolute;
+        left: 50%;
+        top: 100%;
+        transform: translate(-50%, -50%);
     }
 }
 
-.linkBgProject {
-    margin: 0 2rem 0 0;
-    padding: 0 2rem;
-    text-align: center;
-    background-color: $secondary-color;
-}

@@ -17,11 +17,11 @@ function Home() {
       </div>
 
       <div className='linkHome'>
-        <div className='linkBgProject'>
-          <h3>PROJETS</h3>
+        <div className='linkBg'>
           <div>
             <img src={Book} alt='book-icon'/>
           </div>
+          <h3>PROJETS</h3>
         </div>
         <div className='linkBg'>
           <h3>PARCOURS</h3>
