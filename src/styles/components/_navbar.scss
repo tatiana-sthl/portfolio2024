@@ -9,3 +9,17 @@
 ul {
     padding-inline-start: 2rem!important;
 }
+
+li {
+    margin: 2rem 0;
+}
+
+svg {
+    transition: transform .5s;
+}
+
+svg:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
