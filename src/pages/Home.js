@@ -9,7 +9,7 @@ import Contact from '../icons/contact-icon.svg';
 function Home() {
   return (
     <>
-      <div>
+      <div className='presentation'>
         <h1>HELLO WORLD !</h1>
         <h2>Tatiana Stahli</h2>
         <h3>Développeuse web</h3>
