@@ -12,12 +12,25 @@
     background-color: $secondary-color;
     position: relative;
 
-    & h3 {
+    img,
+    h3 {
+        transition: transform 0.5s ease;
+    }
+
+    &:hover img{
+        transform: scale(1.2);
+    }
+
+    h3 {
         margin: 0;
         position: absolute;
         left: 50%;
         top: 100%;
         transform: translate(-50%, -50%);
     }
-}
 
+    transition: background-color 0.3s ease; 
+    &:hover {
+        background-color: $secondary-color;
+    }
+}
