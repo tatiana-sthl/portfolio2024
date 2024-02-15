@@ -5,7 +5,7 @@ import '../styles/components/_navbar.scss';
 
 const Navbar = () => {
   return (
-    <div>
+    <div className='mobileNav'>
       <nav>
         <ul>
           <li>
