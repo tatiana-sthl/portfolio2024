@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/pages/_home.scss';
 import Book from '../icons/book-icon.svg';
 import Parcours from '../icons/map-icon.svg';
@@ -19,7 +20,9 @@ function Home() {
       <div className='linkHome'>
         <div className='linkBg'>
           <div>
-            <img src={Book} alt='book-icon'/>
+            <Link to="../pages/Projects.js">
+              <img src={Book} alt='book-icon'/>
+            </Link>
           </div>
           <h3>PROJETS</h3>
         </div>
