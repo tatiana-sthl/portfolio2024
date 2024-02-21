@@ -20,7 +20,7 @@ function Home() {
       <div className='linkHome'>
         <div className='linkBg'>
           <div>
-            <Link to="../pages/Projects">
+            <Link to="/projects">
               <img src={Book} alt='book-icon'/>
             </Link>
           </div>
