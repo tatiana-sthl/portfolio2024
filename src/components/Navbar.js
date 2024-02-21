@@ -50,7 +50,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="../pages/Contact.js">
+            <Link to="/contact">
               <div className='iconContainer'>
                 <svg width="50px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M1.60175 4.20114C2.14997 3.47258 3.02158 3 4 3H20C20.9784 3 21.85 3.47258 22.3982 4.20113L12 11.7635L1.60175 4.20114Z" fill="#F1E3E4"/>
