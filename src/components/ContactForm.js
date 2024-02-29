@@ -14,7 +14,7 @@ const ContactForm = () => {
       <form className='contactForm' onSubmit={handleSubmit}>
         <div className='mailInfos'>
           <div className='formGroup'>
-            <label className='label' htmlFor="email">Email :</label>
+            <label className='label' htmlFor="email">Votre mail :</label>
             <input
               type="email"
               id="email"
@@ -37,7 +37,7 @@ const ContactForm = () => {
             name="message"
             className='textarea'
             placeholder=
-            {`Bonjour vous deux, Nous serons trois pour le vin d'honneur/repas. Il y aura l'empereur, sa femme et le petit prince de 5 ans. Au plaisir de vous voir !`}
+            {`Après avoir vu votre travail exceptionnel, j'ai hâte de travailler avec vous !`}
           />
           <ValidationError 
             prefix="Message" 

@@ -15,7 +15,7 @@ function Contact() {
       <div className='contactTitle'>
                 <h1>Contact</h1>
             </div>
-            <div className='contactForm'>
+            <div>
               <ContactForm />
             </div>
             <div className='contactMedia'>
