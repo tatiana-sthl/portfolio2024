@@ -29,19 +29,25 @@ function Home() {
         <div className='linkBg'>
           <h3>PARCOURS</h3>
           <div>
-            <img src={Parcours} alt='map-icon'/>
+            <Link to="/cv">
+              <img src={Parcours} alt='map-icon'/>
+            </Link>
           </div>
         </div>
         <div className='linkBg'>
           <h3>STACK</h3>
           <div>
-            <img src={Stack} alt='stack-icon'/>
+            <Link to="/stack">
+              <img src={Stack} alt='stack-icon'/>
+            </Link>
           </div>
         </div>
         <div className='linkBg'>
           <h3>CONTACT</h3>
           <div>
-            <img src={Contact} alt='contact-icon'/>
+            <Link to="/contact">
+              <img src={Contact} alt='contact-icon'/>
+            </Link>
           </div>
         </div>
 
