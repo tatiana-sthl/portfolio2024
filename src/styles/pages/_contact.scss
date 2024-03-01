@@ -125,7 +125,6 @@
     font-family: $font-p ;
     height: 8vw;
     font-size: 1.5vw;
-    width: 150%!important;
 }
 
 .button {
@@ -148,8 +147,24 @@
     margin: 2vw;
 }
 
-.h4Contact {
+.contactRS {
+    display: flex;
     margin: 4vw;
+
+    & h4 {
+        font-size: 2vw;
+        font-weight: 500;
+    }
+
+    & a {
+        font-size: 2vw;
+        margin: 0 1vw;
+    }
+
+    & p {
+        font-size: 2vw;
+        margin: 0 1vw;
+    }
 }
 
 /*mobile responsive*/
