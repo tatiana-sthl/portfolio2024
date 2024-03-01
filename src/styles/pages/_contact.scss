@@ -129,8 +129,7 @@
 }
 
 .button {
-    background-color: #d9cdb7;
-    color: #263248;
+    background-color: $tertiary-color;
     font-size: 20px;
     padding: 10px 20px;
     border: none;
@@ -139,18 +138,14 @@
     font-weight: bold;
 } 
 
-.formButton {
-    text-align: center;
-}
 
 .success {
-    text-align: center;
-    background-color: #d9cdb7;
-    color: #263248;
+    color: $tertiary-color;
+    font-size: 2vw;
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
-    margin: 2vw 13vw 2vw 14vw;
+    margin: 2vw;
 }
 
 /*mobile responsive*/

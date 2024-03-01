@@ -5,7 +5,7 @@ const ContactForm = () => {
 
   const [state, handleSubmit] = useForm("xjvnrjgy");
   if (state.succeeded) {
-      return <p>Je vous recontacte très bientôt !</p>;
+      return <p className='success'>Je vous recontacte très bientôt !</p>;
   };
   
   return (
