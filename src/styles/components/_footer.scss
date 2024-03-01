@@ -7,10 +7,14 @@ footer {
     display: flex;
     justify-content: flex-end;
     flex-shrink: 0;
+
+    & p {
+        align-self: center;
+    }
 }
 
 .iconsFooter {
-    margin: 20px;
+    margin: 1.4vw 0.8vw;
 }
 
 .github {

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/pages/_contact.scss';
-import ContactIcon from '../icons/contact-icon.svg';
+import GithubIcon from '../icons/github-icon.svg';
 import ContactForm from '../components/ContactForm';
 
 /* TODO : 
@@ -18,25 +18,9 @@ function Contact() {
             <div>
               <ContactForm />
             </div>
-            <div className='contactMedia'>
-                <ul className='contactUl'> 
-                    <li className='contactLi'>
-                        <a rel="noreferrer" target='_blank' className='aContact two' href='https://github.com/tatiana-sthl'>
-                          <img src={ContactIcon} alt='contact-icon'/>
-                        </a>
-                    </li>
-                    <li className='contactLi'>
-                        <a rel="noreferrer" target='_blank'className='aContact three' href='https://www.linkedin.com/in/tatiana-stahli/'>
-                          <img src={ContactIcon} alt='contact-icon'/>
-                        </a>
-                    </li>
-                    <li className='contactLi'>
-                        <a rel="noreferrer" target='_blank' className='aContact four' href='https://twitter.com/thathidev'>
-                          <img src={ContactIcon} alt='contact-icon'/>
-                        </a>
-                    </li>
-                </ul>
-
+            <div>
+              <h4 className='h4Contact'>Vous pouvez aussi me contacter par ici :</h4>
+              <a href='https://github.com/tatiana-sthl' target="_blank" rel="noreferrer">Github</a>
             </div>
       </>
     )
