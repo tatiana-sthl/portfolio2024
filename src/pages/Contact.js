@@ -3,7 +3,6 @@ import '../styles/pages/_contact.scss';
 import ContactForm from '../components/ContactForm';
 
 /* TODO : 
-    - finir l'ajout des rs
     - faire le responsive
 */
 
