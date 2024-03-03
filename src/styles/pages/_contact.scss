@@ -11,87 +11,6 @@
     justify-content: space-between;
 }
 
-.contactMedia {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-.contactUl {
-    display: flex;
-    margin: 2vw 2vw 0 0;
-}
-
-.contactLi {
-    list-style: none;
-}
-
-.aContact {
-    background-color: rgb(253, 232, 237);
-    width: 8vw;
-    height: 8vw;
-    border-radius: 50%;
-    border: 3px solid #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1em;
-    transition: all 500ms ease;
-    text-decoration: none;
-    position: relative;
-    cursor: pointer;
-    overflow: hidden;
-}
-
-.iconContact {
-    background-color: transparent;
-    color: rgb(16, 16, 16);
-    font-size: 4em;
-}
-
-.aContact::after {
-    content: "";
-    position: absolute;
-    top: -100%;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    z-index: 1;
-    cursor: pointer;
-    transition: all 500ms ease-in;
-}
-
-.aContact.one:hover::after {
-    background-color:#9c1515;
-    top: 0;
-}
-
-.aContact.two:hover::after {
-    background-color:#333;
-    top: 0;
-}
-
-.aContact.three:hover::after {
-    background-color:#1D9BF0;
-    top: 0;
-}
-
-.aContact.four:hover::after {
-    background-color:#0072b1;
-    top: 0;
-}
-
-.aContact:hover {
-    box-shadow: 0 0 20px #ffffff;
-}
-
-.aContact:hover .iconContact {
-    color: #fff;
-    z-index: 2;
-}
-
 .contactForm {
     margin-left: 4vw;
 }
@@ -157,8 +76,25 @@
     }
 
     & a {
+        text-decoration: none;
         font-size: 2vw;
         margin: 0 1vw;
+        --b: 0.1em;   
+        --c: #F1E3E4; 
+        color: $tertiary-color;
+        
+        padding-block: var(--b);
+        background: 
+            linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+            linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+        -webkit-background-clip: text,padding-box;
+                background-clip: text,padding-box;
+        transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+
+        &:hover {
+            --_p: 50%;
+            --_s: .3s;
+        }
     }
 
     & p {
