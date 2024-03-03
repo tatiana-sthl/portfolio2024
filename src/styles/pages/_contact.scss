@@ -105,9 +105,9 @@
 
 /*mobile responsive*/
 
-@media (max-width: 1270px) {
-    .contactTitle {
-        font-size: 30px;
+@media (max-width: 768px) {
+    .contactTitle h1 {
+        font-size: 5rem;
     }
 
     .arrowContact {
