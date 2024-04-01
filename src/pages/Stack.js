@@ -15,8 +15,8 @@ function Stack() {
       </div>
       <div className='divStack'>
         <div className='iconContainer'>
-          <img src={HtmlIcon} alt="HTML Icon" />
-          <span>HTML</span>
+          <img className="imgIcon" src={HtmlIcon} alt="HTML Icon" />
+          <span className='iconText'>HTML</span>
         </div>
         
         

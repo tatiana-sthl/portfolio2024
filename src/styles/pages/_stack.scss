@@ -13,6 +13,17 @@
     margin: 0 1rem;
 }
 
+.imgIcon {
+    transition: transform .5s;
+}
+
+.imgIcon:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+
+
 /*mobile responsive*/
 
 @media (max-width: 768px) {
