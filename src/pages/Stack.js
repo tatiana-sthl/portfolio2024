@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/pages/_stack.scss';
 
+
+
 function Stack() {
     return (
       <>
