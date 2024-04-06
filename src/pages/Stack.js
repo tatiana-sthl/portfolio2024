@@ -6,8 +6,8 @@ import HtmlIcon from '../icons/icons8-html.svg';
 import CssIcon from '../icons/icons8-css.svg';
 import JSIcon from '../icons/icons8-js.svg';
 import ReactIcon from '../icons/icons8-react-96.png';
-import PhpIcon from '../icons/icons8-html.svg';
-import MongoDBIcon from '../icons/icons8-html.svg';
+import PhpIcon from '../icons/icons8-php.svg';
+import MongoDBIcon from '../icons/icons8-mongodb.png';
 import BootstrapIcon from '../icons/icons8-html.svg';
 import VscIcon from '../icons/icons8-html.svg';
 import FigmaIcon from '../icons/icons8-html.svg';
@@ -38,10 +38,14 @@ function Stack() {
           <img className="imgIcon" src={ReactIcon} alt="React Icon" />
           <span className='iconText'>React</span>
         </div>
-        
-        <span>React</span>
-        <span>PHP</span>
-        <span>MongoDB</span>
+        <div className='iconContainer'>
+          <img className="imgIcon" src={PhpIcon} alt="Php Icon" />
+          <span className='iconText'>PHP</span>
+        </div>
+        <div className='iconContainer'>
+          <img className="imgIcon" src={MongoDBIcon} alt="MongoDB Icon" />
+          <span className='iconText'>MongoDB</span>
+        </div>
         <br></br>
         <span>Bootstrap</span>
         <span>VSC</span>
