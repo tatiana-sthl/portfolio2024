@@ -8,8 +8,8 @@ import JSIcon from '../icons/icons8-js.svg';
 import ReactIcon from '../icons/icons8-react-96.png';
 import PhpIcon from '../icons/icons8-php.svg';
 import MongoDBIcon from '../icons/icons8-mongodb.png';
-import BootstrapIcon from '../icons/icons8-html.svg';
-import VscIcon from '../icons/icons8-html.svg';
+import BootstrapIcon from '../icons/icons8-bootstrap.svg';
+import VscIcon from '../icons/icons8-code-studio-visuel-2019.svg';
 import FigmaIcon from '../icons/icons8-html.svg';
 import PostmanIcon from '../icons/icons8-html.svg';
 import WordpressIcon from '../icons/icons8-html.svg';
@@ -47,8 +47,14 @@ function Stack() {
           <span className='iconText'>MongoDB</span>
         </div>
         <br></br>
-        <span>Bootstrap</span>
-        <span>VSC</span>
+        <div className='iconContainer'>
+          <img className="imgIcon" src={BootstrapIcon} alt="Bootstrap Icon" />
+          <span className='iconText'>Bootstrap</span>
+        </div>
+        <div className='iconContainer'>
+          <img className="imgIcon" src={VscIcon} alt="Vsc Icon" />
+          <span className='iconText'>VSC</span>
+        </div>
         <span>Figma</span>
         <span>Postman</span>
         <span>Wordpress</span>
