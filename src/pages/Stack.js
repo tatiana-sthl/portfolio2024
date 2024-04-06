@@ -4,8 +4,8 @@ import '../styles/components/_navbar.scss';
 
 import HtmlIcon from '../icons/icons8-html.svg';
 import CssIcon from '../icons/icons8-css.svg';
-import JSIcon from '../icons/icons8-html.svg';
-import ReactIcon from '../icons/icons8-html.svg';
+import JSIcon from '../icons/icons8-js.svg';
+import ReactIcon from '../icons/icons8-react-96.png';
 import PhpIcon from '../icons/icons8-html.svg';
 import MongoDBIcon from '../icons/icons8-html.svg';
 import BootstrapIcon from '../icons/icons8-html.svg';
@@ -30,10 +30,15 @@ function Stack() {
           <img className="imgIcon" src={CssIcon} alt="Css Icon" />
           <span className='iconText'>CSS</span>
         </div>
+        <div className='iconContainer'>
+          <img className="imgIcon" src={JSIcon} alt="Js Icon" />
+          <span className='iconText'>JS</span>
+        </div>
+        <div className='iconContainer'>
+          <img className="imgIcon" src={ReactIcon} alt="React Icon" />
+          <span className='iconText'>React</span>
+        </div>
         
-        
-        <span>CSS</span>
-        <span>JS</span>
         <span>React</span>
         <span>PHP</span>
         <span>MongoDB</span>
