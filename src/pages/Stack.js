@@ -2,17 +2,17 @@ import React from 'react';
 import '../styles/pages/_stack.scss';
 import '../styles/components/_navbar.scss';
 
-import HtmlIcon from '../icons/icons8-html-5.svg';
+import HtmlIcon from '../icons/icons8-html.svg';
 import CssIcon from '../icons/icons8-css.svg';
-import JSIcon from '../icons/icons8-html-5.svg';
-import ReactIcon from '../icons/icons8-html-5.svg';
-import PhpIcon from '../icons/icons8-html-5.svg';
-import MongoDBIcon from '../icons/icons8-html-5.svg';
-import BootstrapIcon from '../icons/icons8-html-5.svg';
-import VscIcon from '../icons/icons8-html-5.svg';
-import FigmaIcon from '../icons/icons8-html-5.svg';
-import PostmanIcon from '../icons/icons8-html-5.svg';
-import WordpressIcon from '../icons/icons8-html-5.svg';
+import JSIcon from '../icons/icons8-html.svg';
+import ReactIcon from '../icons/icons8-html.svg';
+import PhpIcon from '../icons/icons8-html.svg';
+import MongoDBIcon from '../icons/icons8-html.svg';
+import BootstrapIcon from '../icons/icons8-html.svg';
+import VscIcon from '../icons/icons8-html.svg';
+import FigmaIcon from '../icons/icons8-html.svg';
+import PostmanIcon from '../icons/icons8-html.svg';
+import WordpressIcon from '../icons/icons8-html.svg';
 
 
 function Stack() {
