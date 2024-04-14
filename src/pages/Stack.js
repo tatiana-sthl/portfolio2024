@@ -10,7 +10,7 @@ import PhpIcon from '../icons/icons8-php.svg';
 import MongoDBIcon from '../icons/icons8-mongodb.png';
 import BootstrapIcon from '../icons/icons8-bootstrap.svg';
 import VscIcon from '../icons/icons8-code-studio-visuel-2019.svg';
-import FigmaIcon from '../icons/icons8-html.svg';
+import FigmaIcon from '../icons/icons8-figma.svg';
 import PostmanIcon from '../icons/icons8-html.svg';
 import WordpressIcon from '../icons/icons8-html.svg';
 
@@ -55,7 +55,10 @@ function Stack() {
           <img className="imgIcon" src={VscIcon} alt="Vsc Icon" />
           <span className='iconText'>VSC</span>
         </div>
-        <span>Figma</span>
+        <div className='iconContainer'>
+          <img className="imgIcon" src={FigmaIcon} alt="Figma Icon" />
+          <span className='iconText'>Figma</span>
+        </div>
         <span>Postman</span>
         <span>Wordpress</span>
 
