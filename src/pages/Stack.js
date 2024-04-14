@@ -12,7 +12,7 @@ import BootstrapIcon from '../icons/icons8-bootstrap.svg';
 import VscIcon from '../icons/icons8-code-studio-visuel-2019.svg';
 import FigmaIcon from '../icons/icons8-figma.svg';
 import PostmanIcon from '../icons/icons8-postman.png';
-import WordpressIcon from '../icons/icons8-html.svg';
+import WordpressIcon from '../icons/icons8-wordpress.svg';
 
 
 function Stack() {
@@ -63,8 +63,10 @@ function Stack() {
           <img className="imgIcon" src={PostmanIcon} alt="Postman Icon" />
           <span className='iconText'>Postman</span>
         </div>
-        <span>Wordpress</span>
-
+        <div className='iconContainer'>
+          <img className="imgIcon" src={WordpressIcon} alt="Wordpress Icon" />
+          <span className='iconText'>Wordpress</span>
+        </div>
     </div>
       </>
     )
