@@ -14,6 +14,11 @@ import FigmaIcon from '../icons/icons8-figma.svg';
 import PostmanIcon from '../icons/icons8-postman.png';
 import WordpressIcon from '../icons/icons8-wordpress.svg';
 
+/* TODO :
+  - disposer correctement les icones en mode desktop
+  - adapter le survol avec l'apparition du nom de l'icone
+  - responsive 
+*/
 
 function Stack() {
     return (
@@ -22,48 +27,48 @@ function Stack() {
         <h1>Stack</h1>
       </div>
       <div className='divStack'>
-        <div className='iconContainer'>
+        <div className='iconContainer iconContainerStack'>
           <img className="imgIcon" src={HtmlIcon} alt="HTML Icon" />
           <span className='iconText'>HTML</span>
         </div>
-        <div className='iconContainer'>
+        <div className='iconContainer iconContainerStack '>
           <img className="imgIcon" src={CssIcon} alt="Css Icon" />
           <span className='iconText'>CSS</span>
         </div>
-        <div className='iconContainer'>
+        <div className='iconContainer iconContainerStack'>
           <img className="imgIcon" src={JSIcon} alt="Js Icon" />
           <span className='iconText'>JS</span>
         </div>
-        <div className='iconContainer'>
+        <div className='iconContainer iconContainerStack'>
           <img className="imgIcon" src={ReactIcon} alt="React Icon" />
           <span className='iconText'>React</span>
         </div>
-        <div className='iconContainer'>
+        <div className='iconContainer iconContainerStack'>
           <img className="imgIcon" src={PhpIcon} alt="Php Icon" />
           <span className='iconText'>PHP</span>
         </div>
-        <div className='iconContainer'>
+        <div className='iconContainer iconContainerStack'>
           <img className="imgIcon" src={MongoDBIcon} alt="MongoDB Icon" />
           <span className='iconText'>MongoDB</span>
         </div>
         <br></br>
-        <div className='iconContainer'>
+        <div className='iconContainer iconContainerStack'>
           <img className="imgIcon" src={BootstrapIcon} alt="Bootstrap Icon" />
           <span className='iconText'>Bootstrap</span>
         </div>
-        <div className='iconContainer'>
+        <div className='iconContainer iconContainerStack'>
           <img className="imgIcon" src={VscIcon} alt="Vsc Icon" />
           <span className='iconText'>VSC</span>
         </div>
-        <div className='iconContainer'>
+        <div className='iconContainer iconContainerStack'>
           <img className="imgIcon" src={FigmaIcon} alt="Figma Icon" />
           <span className='iconText'>Figma</span>
         </div>
-        <div className='iconContainer'>
+        <div className='iconContainer iconContainerStack'>
           <img className="imgIcon" src={PostmanIcon} alt="Postman Icon" />
           <span className='iconText'>Postman</span>
         </div>
-        <div className='iconContainer'>
+        <div className='iconContainer iconContainerStack'>
           <img className="imgIcon" src={WordpressIcon} alt="Wordpress Icon" />
           <span className='iconText'>Wordpress</span>
         </div>
