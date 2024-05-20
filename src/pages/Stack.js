@@ -15,9 +15,7 @@ import PostmanIcon from '../icons/icons8-postman.png';
 import WordpressIcon from '../icons/icons8-wordpress.svg';
 
 /* TODO :
-  - disposer correctement les icones en mode desktop
-  - adapter le survol avec l'apparition du nom de l'icone
-  - responsive 
+  - retravailler complètement le design de la page
 */
 
 function Stack() {
@@ -51,7 +49,6 @@ function Stack() {
           <img className="imgIcon" src={MongoDBIcon} alt="MongoDB Icon" />
           <span className='iconText'>MongoDB</span>
         </div>
-        <br></br>
         <div className='iconContainer iconContainerStack'>
           <img className="imgIcon" src={BootstrapIcon} alt="Bootstrap Icon" />
           <span className='iconText'>Bootstrap</span>
